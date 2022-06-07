@@ -20,7 +20,7 @@ serde = { version = "1.0.124", features = ["derive"], default-features = false }
 serde_json = "1.0.64"
 structopt = "0.3.21"
 termion = "1.5.6"
-tokio = { version = "1.8.1", features = ["full"] }
+tokio = { version = "1.16.1", features = ["full"] }
 
 diem-client = { path = "../diem-client"}
 diem-rest-client = { path = "../diem-rest-client"}
