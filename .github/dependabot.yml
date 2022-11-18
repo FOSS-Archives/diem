@@ -10,10 +10,10 @@ updates:
     labels:
       - "cargo"
       - "dependencies"
-    ignore:
-      - dependency-name: "codespan*"
-      - dependency-name: "libfuzzer-sys"
-      - dependency-name: "bindgen"
+
+
+
+
     open-pull-requests-limit: 0
 
   # Dockerfiles.
